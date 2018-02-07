@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FPS_Tuto.unity
+- path: Assets/Core/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
