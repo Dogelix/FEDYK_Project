@@ -356,19 +356,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Tech/Scripts/Agent/Player
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Tech/Scripts/Agent/Player
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\1_University\Year 2\Spring\Team Project\FEDYK\FEDYK_Project\FEDYK
+  m_LastProjectPath: J:\GitHub\FEYK_Project\FEDYK
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 52}
-    m_SelectedIDs: 34250000
-    m_LastClickedID: 9524
-    m_ExpandedIDs: 0000000034250000362600003a26000046260000482600004a2600004c26000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 02250000
+    m_LastClickedID: 9474
+    m_ExpandedIDs: 00000000b0240000d8240000e22400001a25000020250000222500002825000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,7 +396,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034250000
+    m_ExpandedIDs: 00000000b0240000d8240000e22400001a250000202500002225000028250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -512,9 +512,9 @@ MonoBehaviour:
     height: 552
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: de250000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6cf1ffff68f2ffffa8f5ffff28fbffff00000000
+    m_ExpandedIDs: defbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.091670536, y: 0.43859524, z: -0.045029543, w: -0.8928623}
     speed: 2
-    m_Value: {x: -0.091670536, y: 0.43859524, z: -0.045029543, w: -0.8928623}
+    m_Value: {x: -0.09167053, y: 0.4385952, z: -0.045029543, w: -0.89286226}
   m_Size:
     m_Target: 30.27483
     speed: 2
