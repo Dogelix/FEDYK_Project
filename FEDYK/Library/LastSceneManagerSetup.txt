@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FPS_Tuto.unity
+  isLoaded: 1
+  isActive: 1
