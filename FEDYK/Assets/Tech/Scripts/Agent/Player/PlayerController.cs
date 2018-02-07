@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed;
     public float gravity;
     private Vector3 moveDirection = Vector3.zero;
+
     void Update ()
     {
         CharacterController controller = GetComponent<CharacterController>();
@@ -27,11 +28,11 @@ public class PlayerController : MonoBehaviour
                 moveDirection.y = jumpSpeed;
             }
         }
-        else
-        {
-            moveDirection.x = Input.GetAxis("Horizontal") * speed;
-            moveDirection.z = Input.GetAxis("Vertical") * speed;
-        }
+        //else
+        //{
+        //    moveDirection.x = Input.GetAxis("Horizontal") * speed;
+        //    moveDirection.z = Input.GetAxis("Vertical") * speed;
+        //}
 
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
