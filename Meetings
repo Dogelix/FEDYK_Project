@@ -1,0 +1,60 @@
+07/02/18 - 11.55 -> 12.15
+
+Group meeting.
+Ben talked about what he worked on. This involved the FPS movement and camera.
+He also talked about the issues he faced which was when the player collided, the camera did not and continued moving.
+Jake and Josh suggested alternative solutions involving collisions and cameras for ben to further research
+
+There was a group coversation about the shooting physics. This involved projectices being done first.
+Examples mentioned were shotguns and grenade launchers. This was for ease of use and familiarity. 
+
+Leading on from that, we then discussed about the gun position. To the side? If so, toggle for right-handed/left-handed?
+Group decision for it to be centered in the middle of the screen, old school style for ease of use and creating, less work (toggling etc)
+and a nod to Doom or Quake back then.
+
+Aiden talked about what he was doing. This was pick-ups. He mentioned having trouble with how the player was going to pick it up.
+Ben and Jake suggested using triggers and colliders for the player to "pick-up" the pick-up. 
+Aiden mentioned research via auditory was his favoured approach, which I agreed and mentioned that suits myself (Ryan) best.
+Then Aiden asked Jake (Project Manager) about how the pick-ups will be on the map. Jake replied they will be on pedestals, to be easily visable.
+I(Ryan) asked if they will be floating or rotating for easier player recognition, similar to Quake, or on the ground in a similiar fashion to Doom.
+Group decision they will be floating on the pedestals for easy recognition.
+
+Moving on from this, we discussed about the poly counts. 
+Pick ups would be at: small - 50 / large - 100
+Characters would be at 2000 to 2500 poly counts.
+The weapons would be at 1500 polys
+  - 3 LoDs (Level of Details) for the weapons.
+  - Same model will be used for now, rather than a different model for the player, compared to someone looking at player wielding weapon
+  
+  Aiden asked about the collision detections, namely mesh collisions. Jake replied back about box collision detection being better for this.
+  Josh asked about the format of the collisions, Jake (PM) suggested using google as he doesn't know. 
+  
+  Jake told Ben to keep the capsule as the player for now whilst working on the fps controls for now, such as movement and camera. 
+  
+  Josh mentioned about checking into how many bones Unity can handle in its models, which Jake replied there was a skeleton on Unity with bones, which could be counted for use.
+  
+  We discussed GitHub and how it is being used for the Unity project for files and such.
+  
+  Jake gave Josh a deadline of next week for the bulk of the models. Josh accepted. 
+  
+  Jake asked me (Ryan) about how my work is coming along (Joined the day before). 
+  I replied with what research I've done, including Quake, Unreal Tournament, James Bond deathmatch maps, Halo, and Counter-Strike: Global Offensive.
+  I also said about the issues with finding top-down views of the maps, or blueprints of the maps. 
+  When making the map, put lifts as red, and teleporters as blue for easy viewing.
+  
+  Group discussion: Teleports. Blue leads to blue, orange leads to orange.
+  The design will be goopy and shiny. If possible, for later additions, see-through portals - Think portal game.
+  Discussion: Can projectiles go through portals as well as players?
+  We were saying about technicial issues of it, but also if you can see through a possibility. 
+  It would be for later date if added.
+  
+  Jake mentioned about the Game Design Documentation.
+  
+  Github updates:
+  Currently on commit 6 of game. We'll be updating more, and when hitting key points (Such as camera to look around) it will go up a number. 
+  
+  Jake asked me (Ryan) for a deadline of today to make a basic map. Ramps for players, middle area for super gun etc. I agreed.
+  Suggestions asked to me were of multiple floors, maybe below map too. I said about needing to research, as well as limiting of plane.
+  Solution for Plane was to fix the edges or meet edge to edge for the ceiling.
+  
+  At this point, Aiden mentioned having work later and needing to leave at 15.30 for it, which we acknowledged. 
