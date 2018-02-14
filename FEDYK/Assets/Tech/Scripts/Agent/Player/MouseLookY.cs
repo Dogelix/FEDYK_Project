@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class MouseLookY : MonoBehaviour
 {
+    public float speedFactor;
     private float y;
     private float lowLimit = 80;
     private float highLimit = 280;
@@ -17,8 +18,8 @@ public class MouseLookY : MonoBehaviour
 
     void Update()
     {
-        y = Input.GetAxis("Mouse Y");
-        lookRotation = new Vector3(y, 0, 0);
+        y = Input.GetAxis("Camera Y");
+        lookRotation = new Vector3(y * speedFactor, 0, 0);
         transform.eulerAngles = transform.eulerAngles - lookRotation;
         if (transform.eulerAngles.x > lowLimit && transform.eulerAngles.x < lowLimit + 180)
         {
