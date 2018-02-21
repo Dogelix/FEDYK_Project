@@ -23,14 +23,16 @@ public class PlayerController : NetworkBehaviour
 
     public GameObject endOfGun;
 
+    private bool axisInUse = false;
+
     private Pistol testPistol;
 
     void Start()
     {
         speedRef = speed;
+        testPistol = gameObject.AddComponent<Pistol>();
         if (isLocalPlayer)
         {
-            testPistol = gameObject.AddComponent<Pistol>();
             return;
         }
 
@@ -77,7 +79,31 @@ public class PlayerController : NetworkBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            testPistol.InstantiateRaycast(endOfGun.transform.position, playerCam);
+            Cmd_Shoot();
+            if (!axisInUse)
+            {
+                axisInUse = true;
+            }
         }
+
+        if (Input.GetAxis("Fire1") == 1)
+        {
+            if (!axisInUse)
+            {
+                Cmd_Shoot();
+                axisInUse = true;
+            }
+        }
+
+        if (Input.GetAxis("Fire1") == 0)
+        {
+            axisInUse = false;
+        }
+    }
+
+    [Command]
+    void Cmd_Shoot()
+    {
+        testPistol.InstantiateRaycast(endOfGun.transform.position, playerCam.transform.forward);
     }
 }
