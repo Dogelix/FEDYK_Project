@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: b519605eb0d2ff048bf482d4f18a4d2c
+timeCreated: 1519813242
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BiPod
+    100002: GasBlowBack
+    100004: pBarrel
+    100006: pBody
+    100008: pBolt2
+    100010: pFireSel
+    100012: pGbbMount1
+    100014: pGbbTube1
+    100016: pGrip
+    100018: pInnerGard1
+    100020: pLeftLeg
+    100022: pReceiverDoor
+    100024: pRest
+    100026: pRightLeg
+    100028: pScope
+    100030: pScopeCover
+    100032: pTriggerGard
+    100034: //RootNode
+    400000: BiPod
+    400002: GasBlowBack
+    400004: pBarrel
+    400006: pBody
+    400008: pBolt2
+    400010: pFireSel
+    400012: pGbbMount1
+    400014: pGbbTube1
+    400016: pGrip
+    400018: pInnerGard1
+    400020: pLeftLeg
+    400022: pReceiverDoor
+    400024: pRest
+    400026: pRightLeg
+    400028: pScope
+    400030: pScopeCover
+    400032: pTriggerGard
+    400034: //RootNode
+    2100000: aiBody2
+    2100002: aiBody
+    2100004: aiGlow
+    2100006: aiBrushed
+    2100008: aiGlass
+    2100010: aiGrip
+    2300000: pBarrel
+    2300002: pBody
+    2300004: pBolt2
+    2300006: pFireSel
+    2300008: pGbbMount1
+    2300010: pGbbTube1
+    2300012: pGrip
+    2300014: pInnerGard1
+    2300016: pLeftLeg
+    2300018: pReceiverDoor
+    2300020: pRest
+    2300022: pRightLeg
+    2300024: pScope
+    2300026: pScopeCover
+    2300028: pTriggerGard
+    2300030: //RootNode
+    3300000: pBarrel
+    3300002: pBody
+    3300004: pBolt2
+    3300006: pFireSel
+    3300008: pGbbMount1
+    3300010: pGbbTube1
+    3300012: pGrip
+    3300014: pInnerGard1
+    3300016: pLeftLeg
+    3300018: pReceiverDoor
+    3300020: pRest
+    3300022: pRightLeg
+    3300024: pScope
+    3300026: pScopeCover
+    3300028: pTriggerGard
+    3300030: //RootNode
+    4300000: pBody1
+    4300002: pScope
+    4300004: pScopeCover
+    4300006: pGrip
+    4300008: pTriggerGard
+    4300010: pRest
+    4300012: pFireSel
+    4300014: pInnerGard1
+    4300016: pLeftLeg
+    4300018: pRightLeg
+    4300020: pBarrel
+    4300022: pGbbTube1
+    4300024: pGbbMount1
+    4300026: pBolt2
+    4300028: pReceiverDoor
+    4300030: pBody
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
