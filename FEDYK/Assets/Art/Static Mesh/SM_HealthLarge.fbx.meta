@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 4a6e160e37fb39149ac078a1058a488f
+timeCreated: 1519815906
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cage
+    100002: CageEnd
+    100004: EndCaps
+    100006: EndCaps 1
+    100008: EndCaps 2
+    100010: Helix
+    100012: Helix 1
+    100014: Helix 2
+    100016: Pack1
+    100018: Pack2
+    100020: Pack3
+    100022: pCapBot
+    100024: pCapBot 1
+    100026: pCapBot 2
+    100028: pCapTop
+    100030: pCapTop 1
+    100032: pCapTop 2
+    100034: pCylinder1
+    100036: pCylinder2
+    100038: pCylinder3
+    100040: pCylinder4
+    100042: pCylinder5
+    100044: pHelix1
+    100046: pHelix1 1
+    100048: pHelix1 2
+    100050: pHelix2
+    100052: pHelix2 1
+    100054: pHelix2 2
+    100056: pTube
+    100058: pTube 1
+    100060: pTube 2
+    100062: Rods
+    100064: //RootNode
+    400000: Cage
+    400002: CageEnd
+    400004: EndCaps
+    400006: EndCaps 1
+    400008: EndCaps 2
+    400010: Helix
+    400012: Helix 1
+    400014: Helix 2
+    400016: Pack1
+    400018: Pack2
+    400020: Pack3
+    400022: pCapBot
+    400024: pCapBot 1
+    400026: pCapBot 2
+    400028: pCapTop
+    400030: pCapTop 1
+    400032: pCapTop 2
+    400034: pCylinder1
+    400036: pCylinder2
+    400038: pCylinder3
+    400040: pCylinder4
+    400042: pCylinder5
+    400044: pHelix1
+    400046: pHelix1 1
+    400048: pHelix1 2
+    400050: pHelix2
+    400052: pHelix2 1
+    400054: pHelix2 2
+    400056: pTube
+    400058: pTube 1
+    400060: pTube 2
+    400062: Rods
+    400064: //RootNode
+    2100000: lambert1
+    2100002: aiGlass
+    2100004: aiTubes
+    2100006: aiCaps
+    2300000: pCapBot
+    2300002: pCapBot 1
+    2300004: pCapBot 2
+    2300006: pCapTop
+    2300008: pCapTop 1
+    2300010: pCapTop 2
+    2300012: pCylinder1
+    2300014: pCylinder2
+    2300016: pCylinder3
+    2300018: pCylinder4
+    2300020: pCylinder5
+    2300022: pHelix1
+    2300024: pHelix1 1
+    2300026: pHelix1 2
+    2300028: pHelix2
+    2300030: pHelix2 1
+    2300032: pHelix2 2
+    2300034: pTube
+    2300036: pTube 1
+    2300038: pTube 2
+    3300000: pCapBot
+    3300002: pCapBot 1
+    3300004: pCapBot 2
+    3300006: pCapTop
+    3300008: pCapTop 1
+    3300010: pCapTop 2
+    3300012: pCylinder1
+    3300014: pCylinder2
+    3300016: pCylinder3
+    3300018: pCylinder4
+    3300020: pCylinder5
+    3300022: pHelix1
+    3300024: pHelix1 1
+    3300026: pHelix1 2
+    3300028: pHelix2
+    3300030: pHelix2 1
+    3300032: pHelix2 2
+    3300034: pTube
+    3300036: pTube 1
+    3300038: pTube 2
+    4300000: pCylinder3
+    4300002: pCylinder4
+    4300004: pCylinder5
+    4300006: pCylinder1
+    4300008: pCylinder2
+    4300010: pTube
+    4300012: pHelix1
+    4300014: pHelix2
+    4300016: pCapBot
+    4300018: pCapTop
+    4300020: pTube
+    4300022: pHelix1
+    4300024: pHelix2
+    4300026: pCapBot
+    4300028: pCapTop
+    4300030: pTube
+    4300032: pHelix1
+    4300034: pHelix2
+    4300036: pCapBot
+    4300038: pCapTop
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
