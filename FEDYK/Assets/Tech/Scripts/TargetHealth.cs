@@ -1,17 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class TargetHealth : MonoBehaviour
+/*
+ * Author - Benjamin Edwards
+ * Date Created - 14/02/2018
+ * Copyright - FEDYK : Games 2018
+ */
+
+public class TargetHealth : NetworkBehaviour
 {
+    [SyncVar]
     private int health = 20;
-    void ApplyDamage(int damage)
+
+    public void ApplyTargetDamage(int damage)
     {
-        health -= damage;
-        Debug.Log(health);
-        if (health <= 0)
+        if (isServer)
         {
-            gameObject.SetActive(false);
+            health -= damage;
+            Debug.Log(health);
+            if (health <= 0)
+            {
+                GameObject.Destroy(gameObject);
+            }
         }
     }
 }

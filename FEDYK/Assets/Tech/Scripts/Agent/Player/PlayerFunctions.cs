@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 /*
  * Author - Benjamin Edwards
@@ -8,7 +9,7 @@ using UnityEngine;
  * Copyright - FEDYK : Games 2018
  */
 
-public class PlayerFunctions : MonoBehaviour
+public class PlayerFunctions : NetworkBehaviour
 {
     [SerializeField]
     private int _health = 100;
@@ -16,22 +17,29 @@ public class PlayerFunctions : MonoBehaviour
     private int _armour = 50;
     [SerializeField]
     private string _username = "Joe Bloggs";
-	//// Use this for initialization
-	//void Start () {
-		
-	//}
-	
-	//// Update is called once per frame
-	//void Update () {
-		
-	//}
+
+    private Vector3 _spawnPoint;
+
+    //// Use this for initialization
+    void Start ()
+    {
+        if (isLocalPlayer)
+        {
+            _spawnPoint = transform.position;
+        }
+    }
+
+    //// Update is called once per frame
+    //void Update () {
+
+    //}
     public int Health
     {
         get
         {
             return _health;
         }
-        
+
         set
         {
             _health = value;
@@ -61,5 +69,25 @@ public class PlayerFunctions : MonoBehaviour
         {
             _username = value;
         }
+    }
+
+    public void ApplyPlayerDamage(int damage)
+    {
+        _health -= damage;
+        Debug.Log(_health);
+        if (_health <= 0)
+        {
+            Rpc_Respawn();
+        }
+    }
+
+    [ClientRpc]
+    void Rpc_Respawn()
+    {
+        //if (isLocalPlayer)
+        //{
+            _health = 100;
+            transform.position = _spawnPoint;
+        //}
     }
 }
